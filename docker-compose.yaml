@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  ocr:
+    container_name: ocr
+    image: ocr:latest
+    restart: always
+#    tty: true
+    build: .
+    ports: 
+      - "1101:80"
+    environment:
+      APP_PORT: 80
+      APP_ACCESS_LOG: 'False'
+      APP_DEBUG: 'False'
+      APP_WORKER: 4
+#    volumes:
+#      - ./:/app

@@ -16,9 +16,10 @@ You will need tesseract with indonesian language support installed in your syste
 - Rest API CLient (Postman, Insomnia, stc)
 ---
 <h2 style="font-weight:800;">Support</h2>
-* <strong>KTP</strong>
-* <strong>SIM</strong> Old or New
-* <strong>PASSPORT</strong>
+
+* <strong>KTP</strong> ✔
+* <strong>SIM</strong> Old or New ❌
+* <strong>PASSPORT</strong> ❌
 ---
 <h2 style="font-weight: 800;">How to use</h2>
 <h3 style="font-weight: 800;">🚀 Run</h3>

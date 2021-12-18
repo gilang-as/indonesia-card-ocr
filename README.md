@@ -22,13 +22,15 @@ You will need tesseract with indonesian language support installed in your syste
 ---
 <h2 style="font-weight: 800;">How to use</h2>
 <h3 style="font-weight: 800;">🚀 Run</h3>
-```console
+
+```
 $ git clone https://github.com/gilang-as/id-card-ocr.git
 $ cd id-card-ocr
 $ docker compose up -d
 ```
 <h3 style="font-weight: 800;">Use</h3>
-```shell
+
+```
 # Curl
 curl --request POST \
   --url http://localhost:1101/scan-url \
